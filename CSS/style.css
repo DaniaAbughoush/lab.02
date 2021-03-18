@@ -13,3 +13,14 @@ h3{
     background-color: blueviolet;
     color: crimson;
 }
+h1{
+    font-family: 'Syne Mono', monospace;
+}
+h2{
+    font-family: 'Berkshire Swash', cursive;
+font-family: 'Syne Mono', monospace;
+}
+img{
+    margin: 90px;
+    
+}
