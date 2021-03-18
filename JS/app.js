@@ -13,9 +13,9 @@ function q1(){
     a++;
   } else if(drawing.toLowerCase()==='no') {
     alert('sorry you got this one wrong i like drawing');
-    
+
   } else { alert('please answer yes or no ');
-    
+
 
   }
   return a;
@@ -30,15 +30,15 @@ function q2 (){
     b++;
   } else if(mycolor.toLowerCase()==='yes'){
     alert('you got this wrong,i dont like white');
-  
+
   }
   else{alert('please answer yes or no ');
-  
-    
-  
+
+
+
   }
-return b;
-};
+  return b;
+}
 q2 ();
 
 
@@ -53,11 +53,11 @@ function q3 (){
   else if(travel.toLowerCase()==='no')
   {
     alert('no i like travelling'+' '+userName+' '+'hope we can travel together');
-    
+
   }
   else{
     alert('please answer yes or no ');
-    
+
   } return d;
 }
 q3();
@@ -74,10 +74,10 @@ function q4 (){
   else if(math.toLowerCase()==='yes')
   {
     alert('no the answer is no,sorry');
-    
+
   }
   else{ alert('please answer yes or no ');
-    
+
   } return c;
 }
 q4();
@@ -85,20 +85,20 @@ q4();
 function q5 (){
 
   let cooking=prompt(userName+' '+'what about cooking .am i good or not');
-  
+
   if(cooking.toLowerCase()==='yes')
   {
     alert('cooking is fun you got this one right');
     g++;
-  
+
   }else if(cooking.toLowerCase()==='no')
   {
     alert('you got this one wrong,i like to cook');
-    
+
   }else
   {
     alert('please answer yes or no ');
-    
+
   }return g;
 }
 q5();
@@ -113,18 +113,18 @@ function q6(){
 
   for (let i = 0; i < 4; i++)
   {let guess=prompt('please guess anumber in my mind from 0 to 10'+' '+userName);
-  
-  
+
+
     if (guess==='7') { alert('correct'+' '+'you got it'+' '+userName);
       e++;
       break;
-  
+
     } else if (guess<=7){ alert('too low try again'+' '+userName);
-      
-  
+
+
     }else{alert('high number try '+' '+userName);
-      
-  
+
+
     }}return e;
 }
 q6();
@@ -132,24 +132,24 @@ q6();
 alert('correct answer is 7');
 function q7(){
   let drinks = ['orange','water','tea','apple','coffe','mango','lemon'];
-  
-  
+
+
   for( let x=0 ; x<6 ;x++)
   { let favDrink=prompt('Now guess my faviourit drink');
-  
-  
+
+
     if (favDrink===drinks[1] || favDrink===drinks[2]|| favDrink===drinks[3] || favDrink===drinks[4] || favDrink===drinks[5] || favDrink===drinks[6] || favDrink===drinks[7] )
     {alert(' you got this one right');
       f++;
       break;
-  
+
     } else {alert('nope!');
-      
-  
+
+
     }}
-  
+
   alert('the drinks that i like is'+' '+drinks);
-  
+
   return f;
 }
 q7();
